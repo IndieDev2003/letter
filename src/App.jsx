@@ -1,10 +1,10 @@
 import React from 'react'
-import Letter from './components/Letter'
+import Letter2 from './components/Letter2'
 
 function App() {
   return (
     <div>
-      <Letter/>
+      <Letter2/>
     </div>
   )
 }
