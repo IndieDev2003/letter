@@ -14,6 +14,7 @@ justify-content:center;
 }
 .letter{
   margin-bottom:30px ;
+background-color:limegreen;
 }
 .letter-content {
   padding: 0 30px 20vh 30px;
