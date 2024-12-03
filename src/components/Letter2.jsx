@@ -24,7 +24,7 @@ function Letter({ title, paragraphs, speed, onClose }) {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: content,
-      typeSpeed: 0,
+      typeSpeed: 50,
       showCursor: false,
       onComplete: () => {
         // Once the typing completes, ensure it scrolls to the bottom
