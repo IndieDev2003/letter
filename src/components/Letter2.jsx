@@ -45,7 +45,7 @@ function Letter({ title, paragraphs, speed, onClose }) {
   }, []);
 
   return (
-    <div className="letter" ref={letterContentRef} style={{ overflowY: "auto", maxHeight: "90vh" }}>
+    <div className="letter" ref={letterContentRef} style={{ overflowY: "auto", maxHeight: "80vh" }}>
       <div className="letter-content">
         <h3 ref={el}></h3>
       </div>
