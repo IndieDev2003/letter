@@ -6,6 +6,11 @@
 }
 body{
 background-color:aliceblue;
+max-height:100vh;
+max-width:100vw;
+display:flex;
+align-items:center;
+justify-content:center;
 }
 .letter{
   margin-bottom:30px ;
