@@ -24,7 +24,7 @@ function Letter({ title, paragraphs, speed, onClose }) {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: content,
-      typeSpeed: 50,
+      typeSpeed: 90,
       showCursor: false,
       onComplete: () => {
         // Once the typing completes, ensure it scrolls to the bottom
@@ -46,7 +46,7 @@ function Letter({ title, paragraphs, speed, onClose }) {
 
   return (
     <div className="letter" ref={letterContentRef} style={{ overflowY: "auto", maxHeight: "80vh" }}>
-      <div className="letter-content">
+      <div  className="letter-content">
         <h3 ref={el}></h3>
       </div>
     </div>
